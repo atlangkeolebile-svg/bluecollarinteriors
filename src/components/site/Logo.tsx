@@ -7,15 +7,15 @@ export function Logo({ light = false }: { light?: boolean }) {
       <img
         src={logo}
         alt="Blue Collar Interiors"
-        width={40}
-        height={40}
-        className={`h-10 w-10 object-contain ${light ? "brightness-0 invert" : ""}`}
+        width={36}
+        height={36}
+        className={`h-9 w-9 object-contain ${light ? "brightness-0 invert" : ""}`}
       />
       <span className="flex flex-col leading-tight">
-        <span className={`font-display text-base font-semibold tracking-wide ${light ? "text-cream" : "text-ink"}`}>
+        <span className={`text-sm font-semibold tracking-tight ${light ? "text-white" : "text-foreground"}`}>
           Blue Collar
         </span>
-        <span className={`text-[10px] uppercase tracking-[0.28em] ${light ? "text-cream/70" : "text-muted-foreground"}`}>
+        <span className={`text-[10px] font-medium uppercase tracking-[0.24em] ${light ? "text-white/70" : "text-muted-foreground"}`}>
           Interiors
         </span>
       </span>
