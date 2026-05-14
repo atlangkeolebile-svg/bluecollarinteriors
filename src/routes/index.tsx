@@ -48,7 +48,8 @@ function HomePage() {
       {/* HERO */}
       <section className="relative h-[100svh] min-h-[600px] w-full overflow-hidden">
         <img src={hero} alt="Modern royal blue kitchen interior" className="absolute inset-0 h-full w-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-b from-ink-deep/60 via-ink-deep/30 to-ink-deep/80" />
+        <div className="absolute inset-0 bg-gradient-to-b from-ink-deep/80 via-ink-deep/60 to-ink-deep/95" />
+        <div className="absolute inset-0 bg-gradient-to-r from-ink-deep/70 via-ink-deep/30 to-transparent" />
         <div className="relative z-10 mx-auto flex h-full max-w-7xl flex-col justify-end px-6 pb-24 pt-32 lg:px-10">
           <div className="max-w-3xl">
             <span className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.2em] text-white backdrop-blur">
