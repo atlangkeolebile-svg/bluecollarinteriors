@@ -86,14 +86,6 @@ function HomePage() {
               Founded on the values of honest work and modern design, we operate from our Gwest Industrial workshop where every project is sketched, manufactured and quality-checked before installation. Our supply chain is stocked with fittings, hardware and seating from leading South African suppliers — bringing imported quality without imported pricing.
             </p>
 
-            <div className="mt-10 grid grid-cols-3 gap-6 border-t border-border pt-8">
-              {[["10+", "Years"], ["180+", "Shipments"], ["100%", "In-house"]].map(([n, l]) => (
-                <div key={l}>
-                  <div className="text-3xl font-semibold text-royal">{n}</div>
-                  <div className="mt-1 text-xs uppercase tracking-[0.18em] text-muted-foreground">{l}</div>
-                </div>
-              ))}
-            </div>
           </div>
       </section>
 
