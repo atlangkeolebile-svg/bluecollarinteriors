@@ -74,11 +74,7 @@ function HomePage() {
 
       {/* ABOUT */}
       <section id="about" className="mx-auto max-w-7xl px-6 py-24 lg:px-10 lg:py-32">
-        <div className="grid items-center gap-16 lg:grid-cols-12">
-          <div className="lg:col-span-5">
-            <img src={portrait} alt="Blue Collar Interiors team" loading="lazy" className="aspect-[4/5] w-full rounded-lg object-cover shadow-elegant" />
-          </div>
-          <div className="lg:col-span-7">
+        <div className="mx-auto max-w-3xl">
             <span className="text-xs font-semibold uppercase tracking-[0.22em] text-royal">About</span>
             <h2 className="mt-4 text-4xl font-semibold tracking-tight text-balance md:text-5xl">
               Honest craft. Modern design. <span className="text-royal">Built to last.</span>
