@@ -48,17 +48,17 @@ function HomePage() {
       {/* HERO */}
       <section className="relative h-[100svh] min-h-[600px] w-full overflow-hidden">
         <img src={hero} alt="Modern royal blue kitchen interior" className="absolute inset-0 h-full w-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-b from-ink-deep/80 via-ink-deep/60 to-ink-deep/95" />
-        <div className="absolute inset-0 bg-gradient-to-r from-ink-deep/70 via-ink-deep/30 to-transparent" />
+        <div className="absolute inset-0 bg-ink-deep/55" />
+        <div className="absolute inset-0 bg-gradient-to-t from-ink-deep via-ink-deep/70 to-ink-deep/20" />
         <div className="relative z-10 mx-auto flex h-full max-w-7xl flex-col justify-end px-6 pb-24 pt-32 lg:px-10">
-          <div className="max-w-3xl">
+          <div className="max-w-3xl rounded-2xl bg-ink-deep/40 p-8 backdrop-blur-sm ring-1 ring-white/10 md:p-10">
             <span className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.2em] text-white backdrop-blur">
               <span className="h-1.5 w-1.5 rounded-full bg-royal" /> Gaborone · Botswana
             </span>
-            <h1 className="mt-6 text-5xl font-semibold leading-[1.05] tracking-tight text-white text-balance md:text-7xl">
+            <h1 className="mt-6 text-5xl font-semibold leading-[1.05] tracking-tight text-white text-balance md:text-7xl drop-shadow-[0_2px_12px_rgba(0,0,0,0.5)]">
               Blue Collar Interiors
             </h1>
-            <p className="mt-5 max-w-xl text-lg leading-relaxed text-white/85">
+            <p className="mt-5 max-w-xl text-lg leading-relaxed text-white drop-shadow-[0_1px_6px_rgba(0,0,0,0.6)]">
               Bespoke kitchens, cabinetry and interior design — crafted in our Gaborone studio, fitted with care.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
