@@ -95,7 +95,6 @@ function HomePage() {
               ))}
             </div>
           </div>
-        </div>
       </section>
 
       {/* SERVICES */}
